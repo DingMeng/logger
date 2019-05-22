@@ -2,13 +2,11 @@
 
 ## Example
 ```go
-import (
-	"github.com/DingMeng/logger"
-)
+package main
+import "github.com/DingMeng/logger"
 
-var l = L
-
-func main() {
-	l.Info("info")
+var l = logger.L
+func main(){
+	l.Info()
 }
 ```
