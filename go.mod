@@ -1,4 +1,4 @@
-module github.com/DingMeng/logger
+module github.com/imdm/logger
 
 go 1.12
 
